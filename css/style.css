@@ -737,7 +737,7 @@ background-image: url(../images/living-room2.jpg);
   text-align: center;
   font-weight: 900;
   margin-top: 30px;
-  text-shadow: 2px 2px;
+  text-shadow:  3px 0 10px;
 
 
 }
@@ -749,7 +749,7 @@ background-image: url(../images/living-room2.jpg);
   font-size: 3.5rem;
   font-weight: 900;
   margin-top: 30px;
-  text-shadow: 2px 2px;
+  text-shadow:  10px 10px 10px;
 }
 .drugi-podnaslov{
   display: none;
@@ -837,18 +837,13 @@ body{
     font-size: 2.4rem;
   }
 }
-@media(max-width: 299px){
+@media(max-width: 340px){
   .drugi-naslov{
     font-size: 1.8rem;
 }
-
-  .par{
-    height: 200px;
-    width: 200px;
-}
-  .par p{
-    font-size: 1rem;
-    padding-top: 10px;
+.par{
+  height: 200px;
+  width: 200px;
 }
 .slikeusluga1 {
 
@@ -870,4 +865,14 @@ body{
   height: 200px;
 
 }
+.par p{
+  font-size: 1rem;
+  padding-top: 10px;
+}
+}
+@media(max-width: 299px){
+  .drugi-naslov{
+    font-size: 1.5rem;
+}
+
 }
