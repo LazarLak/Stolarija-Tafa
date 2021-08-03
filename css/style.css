@@ -796,6 +796,12 @@ background-image: url(../images/living-room2.jpg);
 .middle-container2{
   background-attachment: initial;
 }
+
+}
+@media (max-width: 635px) {
+  .o-nama-span{
+    display: none;
+  }
 }
 @media(max-width: 600px){
   .aluimg{
@@ -806,6 +812,9 @@ display: none;
 }
 .ALUiPVC{
   box-shadow: 0 5px 15px rgba(0,0,0,15);
+  width: 300px;
+  height: 300px;
+  padding: 30px;
 }
 
 body{
@@ -836,6 +845,9 @@ body{
   .drugi-naslov{
     font-size: 2.4rem;
   }
+  .tekstonama{
+    text-align: center;
+  }
 }
 @media(max-width: 340px){
   .drugi-naslov{
@@ -864,6 +876,10 @@ body{
   width: 200px;
   height: 200px;
 
+}
+.ALUiPVC{
+  width: 200px;
+  height: 200px;
 }
 .par p{
   font-size: 1rem;
